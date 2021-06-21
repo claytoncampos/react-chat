@@ -15,3 +15,15 @@ Firebase e Chat Engine são ótimas ferramentas para configurar aplicativos de f
 ### Bonus - Notificações por E-mail
 
 Se você quiser atualizar este aplicativo de bate-papo com recurso de notificações por e-mail. Acesse: https://chatengine.io/docs/email_notifications.
+
+##### Para usar em localhost
+
+Descomente as Linahs 51,52 do arquivo chats.js
+crie seu arquivo .env com as chaves
+
+REACT_APP_ENGINE_KEY
+REACT_APP_CHAT_ENGINE_ID
+
+##### Para Testar em Produção
+
+[Link Site](web-chat-react.netlify.app)
