@@ -26,4 +26,4 @@ REACT_APP_CHAT_ENGINE_ID
 
 ##### Para Testar em Produção
 
-[Link Site](web-chat-react.netlify.app)
+[Link Site](http://web-chat-react.netlify.app)
