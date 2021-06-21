@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router';
 import { ChatEngine } from 'react-chat-engine';
 import { auth } from '../firebase';
@@ -48,8 +48,8 @@ const Chats = () => {
         formdata.append('username', user.email);
         formdata.append('secret', user.uid);
         // fix CORS
-        formdata.append('Access-Control-Allow-Origin', 'http://localhost:3000');
-        formdata.append('Access-Control-Allow-Credentials', 'true');
+        //formdata.append('Access-Control-Allow-Origin', 'http://localhost:3000');
+        //formdata.append('Access-Control-Allow-Credentials', 'true');
 
         getFile(user.photoURL).then((avatar) => {
           formdata.append('avatar', avatar, avatar.name);
