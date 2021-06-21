@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bd3f6c74-3df3-4e61-af14-e737f7703905/deploy-status)](https://app.netlify.com/sites/web-chat-react/deploys)
+
 # React-chat Application
 
 ![Chat Application](https://i.ibb.co/GJwyy9m/Bv9-Js3-QLOLY-HD.jpg)
